@@ -307,15 +307,28 @@ nav{
 .section{
     padding-block: 5em;
 }
+
 .row{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     gap: 50px;
+    margin: 0 auto;
+    align-items: center;
 }
 .col{
     display: flex;
     width: 50%;
+}
+
+a{
+    text-decoration: none;  
+    color: #6700d0;
+    font-weight: 200;
+}
+
+a:hover {
+    color: inherit; /* Ensures the color does not change on hover */
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
